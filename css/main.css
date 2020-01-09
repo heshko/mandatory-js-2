@@ -1,0 +1,159 @@
+
+/* start global*/
+*{
+    box-sizing: border-box;
+}
+/* start global*/
+
+
+/* start header*/
+header{
+    text-align: center;
+    width: 720px;
+    height: 220px;
+     margin: 10px auto 20px;
+     box-shadow: 0 0 10px 10px rgb(51, 51, 51)  ;
+     perspective: 600px;
+    
+}
+header img {
+    width: 100%;
+    height: 100%;
+}
+header :hover{
+    transition: all 2s ease-in;
+    transform: translateZ(30px);
+}
+/* end header*/
+
+
+/* start section*/
+
+section{
+    width: 700px;
+    margin: 10px auto;
+    text-align: center;
+}
+
+
+#player1 , #player2{
+    width: 100px;
+    height: 70px;
+    border: 1px solid #00abab;
+    padding: 10px;
+    background-color:#00abab;
+    
+    
+}
+
+#player1{
+    float: left;
+}
+#player2{
+    float: right;
+}
+button {
+   
+    background-color: #00abab;
+    padding: 10px;
+}
+
+/* end section*/
+
+
+
+/*start container*/
+.container{
+    width: 600px;
+    margin: 0 auto;
+  
+}
+.container :not(.clear){
+    width: 200px;
+    height: 200px;
+    float: left;
+}
+
+.container div:first-of-type{
+    border-right: 3px solid #00abab;
+    border-bottom: 3px solid #00abab;
+}
+.container div:nth-of-type(2){
+    border-right: 3px solid #00abab;
+    border-bottom: 3px solid #00abab;
+}
+.container div:nth-of-type(3){
+    border-bottom: 3px solid #00abab;
+}
+.container div:nth-of-type(4){
+    border-right: 3px solid #00abab;
+    border-bottom:  3px solid #00abab;
+}
+.container div:nth-of-type(5){
+    border-right: 3px solid #00abab;
+    border-bottom: 3px solid #00abab;
+}
+.container div:nth-of-type(6){
+ 
+    border-bottom: 3px solid #00abab;
+}
+.container div:nth-of-type(7){
+    border-right: 3px solid #00abab;
+    
+}
+.container div:nth-of-type(8){
+    border-right: 3px solid #00abab;
+    
+}
+
+.imgO{
+    background-image: url("../imges/o.png");
+    background-size: 100% 100%;
+}
+.imgX{
+    background-image: url("../imges/x.png");
+    background-size: 100% 100%;
+}
+
+.clear{
+    clear: both;
+}
+
+/*end container*/
+
+/*start box win */
+
+#win{
+    position: absolute;
+    width: 300px;
+    top: 608px;
+    left: 804px;
+    background-color: #00abab;
+    padding: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    display: none;
+}
+
+/*end box win */
+
+/*start footer */
+footer{
+    padding: 10px;
+    margin: 10px 0;
+    background-color: black;
+    color: white;
+}
+.copyright{
+    float: left;
+    width: 50%;
+    text-align: center;
+}
+.design{
+    float: right;
+    width: 50%;
+    text-align: center;
+}
+
+/*end footer */
